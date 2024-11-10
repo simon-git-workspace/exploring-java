@@ -5,7 +5,7 @@
 | **Exception Handling** | Not possible                                    | Possible in static block                           |
 | **Memory Efficiency** | Can be inefficient if unused                     | Can be inefficient if unused                       |
 
-##Lazy Initialization vs BillPugh
+## Lazy Initialization vs BillPugh
 Key Takeaway:
 The Bill Pugh Singleton approach is generally considered more robust because it combines lazy initialization with thread safety without requiring synchronization. This makes it more efficient and is often the recommended way to implement singletons in Java.
 
