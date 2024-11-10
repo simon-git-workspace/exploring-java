@@ -1,0 +1,102 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Generated files from annotations
+*.generated/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# Uncomment if using Maven Wrapper
+# .mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+# Ignore Gradle Wrapper properties if not needed
+# gradle/wrapper/gradle-wrapper.properties
+
+# Gradle caches and logs
+**/build/
+.gradle/
+build/
+out/
+gradle.log
+.gradle/cache/
+.gradle/logs/
+.gradle/gradle-app.cache
+.gradle-test-kit/
+
+# Eclipse
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+.idea/modules.xml
+.idea/*.name
+.idea/workspace.xml
+.idea/libraries/
+.idea/shelf/
+.idea/modules/
+.idea/.gitignore
+# Temporary files from IntelliJ IDEA
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/dictionaries/
+.idea/vcs.xml
+*.ipr
+*.iws
+*.iml
+out/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+# NetBeans specific cache files
+*.swp
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
