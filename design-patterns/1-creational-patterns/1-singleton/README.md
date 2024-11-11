@@ -19,6 +19,8 @@ The inner class isn’t loaded until it’s referenced, which creates the instan
 **Thread Safety**
 - Thread-safe without synchronization, because class loading is handled by the JVM and is guaranteed to be thread-safe.
 
+### Comparison
+
 | Feature              | Lazy Singleton Initialization                    | Bill Pugh Singleton Implementation               |
 |----------------------|--------------------------------------------------|--------------------------------------------------|
 | **Instance Creation**| Created when `getInstance()` is called           | Created when `getInstance()` is called           |
