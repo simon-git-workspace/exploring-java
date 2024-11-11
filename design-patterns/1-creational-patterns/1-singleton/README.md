@@ -1,4 +1,10 @@
 # Singleton
+1. Eager Initialization
+2. Lazy Initialization
+3. Enhanced Lazy Initialization with Synchronization
+4. BillPugh
+5. Break Singleton using Reflection API  
+
 ## Eager Initialization vs Static Block Initialization
 | Feature              | Eager Initialization                               | Static Block Initialization                        |
 |----------------------|----------------------------------------------------|----------------------------------------------------|

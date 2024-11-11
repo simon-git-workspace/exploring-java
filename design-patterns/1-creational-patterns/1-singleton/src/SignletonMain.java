@@ -1,3 +1,4 @@
+import java.lang.reflect.Constructor;
 import java.util.Objects;
 
 public class SignletonMain {
@@ -95,3 +96,27 @@ class BillPughSingleton {
 		return SingletonHelper.INSTANCE;
 	}
 }
+
+class SingletonDestroyerThroughReflection {
+	public static void main(String[] args) {
+        EagerInitializationSingleton instanceOne = EagerInitializationSingleton.getInstance();
+        EagerInitializationSingleton instanceTwo = null;
+
+        try {
+            // Get the constructor of the Singleton class
+            Constructor<EagerInitializationSingleton> constructor = EagerInitializationSingleton.class.getDeclaredConstructor();
+
+            // Set the constructor accessible
+            constructor.setAccessible(true);
+
+            // Create a new instance using the accessible constructor
+            instanceTwo = constructor.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Instance One HashCode: " + instanceOne.hashCode());
+        System.out.println("Instance Two HashCode: " + instanceTwo.hashCode());
+    }
+}
+
